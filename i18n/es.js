@@ -1,0 +1,57 @@
+export default {
+  nav: {
+    home: 'Inicio',
+    progress: 'Progreso',
+    settings: 'Ajustes',
+  },
+  home: {
+    greeting: 'Hola, {{name}}! 👋',
+    chooseActivity: '¿Qué quieres hacer hoy?',
+  },
+  piano: {
+    title: 'Toca el Piano',
+    instruction: 'Toca una tecla',
+    DO: 'Perro',
+    RE: 'Gato',
+    MI: 'Ratón',
+    FA: 'Rana',
+    SOL: 'Oso',
+    LA: 'Zorro',
+    SI: 'León',
+  },
+  quiz: {
+    title: 'Quiz de Notas',
+    question: '¿Qué nota es esta?',
+    correct: '¡Correcto! 🎉',
+    wrong: 'Era {{note}}',
+    streak: '🔥 Racha: {{count}}',
+  },
+  rhythm: {
+    title: 'Juego de Ritmo',
+    instruction: 'Sigue el ritmo',
+    pattern: 'Patrón:',
+    perfect: '¡Perfecto! 🎉',
+    tryAgain: '¡Inténtalo de nuevo!',
+    again: '🔄 Otra vez',
+  },
+  progress: {
+    title: 'Mi Progreso',
+    stars: 'Estrellas',
+    badges: 'Medallas',
+    empty: 'Aún no tienes medallas. ¡A jugar!',
+  },
+  settings: {
+    title: 'Ajustes',
+    childName: 'Nombre del niño',
+    language: 'Idioma',
+    save: 'Guardar',
+  },
+  badges: {
+    firstNote: 'Primera Nota',
+    explorer: 'Explorador',
+    quizMaster: 'Quiz Maestro',
+    rhythmPro: 'Ritmo Pro',
+    fireStreak: 'Racha de Fuego',
+    superStar: 'Súper Estrella',
+  },
+};
